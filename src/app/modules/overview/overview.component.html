@@ -1,0 +1,60 @@
+<body>
+  <div class="main-container">
+    <div class="sport-box">
+      <h2>Verfügbare Sportarten:</h2>
+      <table>
+        <tr *ngFor="let sport of sportarten" (click)="goToSportDetails(sport)">
+          <td>{{ sport }}</td>
+        </tr>
+      </table>
+    </div>
+    <div class="country-box">
+      <h2>Medaillentabelle:</h2>
+      <h4>Klick auf die Länder</h4>
+      
+      <table>
+        <thead>
+          <tr>
+            <th>🌍<br>Land</th>
+            <th>🥇<br>Gold</th>
+            <th>🥈<br>Silber</th>
+            <th>🥉<br>Bronze </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let country of medaillenspiegel"  (click)="goToAthletsOfNation(country.nation)">
+            <td style="cursor: pointer">{{ country.nation }}</td>
+            <td class="medal-cell">{{ country.gold }}</td>
+            <td class="medal-cell">{{ country.silver }}</td>
+            <td class="medal-cell">{{ country.bronze }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="country-box">
+      <h2>Athletenübersicht:</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Geburtsdatum</th>
+            <th>Nation</th>
+            <th>Sportart</th>
+            <th>Gewonnene Medailien</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let athlet of athleten">
+            <td>{{ athlet.a_name }}</td>
+            <td class="medal-cell">{{ athlet.a_geburtsdatum }}</td>
+            <td class="medal-cell">{{ athlet.l_bezeichnung }}</td>
+            <td class="medal-cell">{{ athlet.s_name }}</td>
+            <td class="medal-cell">{{ athlet.medals }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+  </div>
+</body>

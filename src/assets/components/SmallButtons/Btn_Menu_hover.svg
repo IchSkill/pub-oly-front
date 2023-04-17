@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="22" viewBox="0 0 28 22">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#1c87af;stroke-linecap:round;stroke-width:4px}
+        </style>
+    </defs>
+    <g id="Btn_Menu" transform="translate(2 2)">
+        <path id="Linie_38" data-name="Linie 38" class="cls-1" d="M24 0H0"/>
+        <path id="Linie_39" data-name="Linie 39" class="cls-1" transform="translate(0 9)" d="M24 0H0"/>
+        <path id="Linie_40" data-name="Linie 40" class="cls-1" transform="translate(0 18)" d="M24 0H0"/>
+    </g>
+</svg>

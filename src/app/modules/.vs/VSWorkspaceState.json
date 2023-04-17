@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\login",
+    "\\navigation",
+    "\\register",
+    "\\ueberpruefung",
+    "\\viewer"
+  ],
+  "SelectedNode": "\\login\\login.component.ts",
+  "PreviewInSolutionExplorer": false
+}

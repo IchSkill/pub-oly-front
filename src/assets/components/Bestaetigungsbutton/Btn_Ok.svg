@@ -1,0 +1,7 @@
+<svg data-name="Btn_Ok/Signup/Login" xmlns="http://www.w3.org/2000/svg" width="273" height="35" viewBox="0 0 273 35">
+    <g data-name="Rechteck 9" style="fill:#fff;stroke:#1c87af;stroke-width:2px">
+        <rect width="273" height="35" rx="17.5" style="stroke:none"/>
+        <rect x="1" y="1" width="271" height="33" rx="16.5" style="fill:none"/>
+    </g>
+    <path data-name="Pfad 65" d="M-.077-6.545c0-4.283-2.659-6.724-6.13-6.724-3.49 0-6.13 2.442-6.13 6.724 0 4.263 2.64 6.724 6.13 6.724 3.471 0 6.13-2.442 6.13-6.724zm-2.806 0c0 2.774-1.317 4.276-3.324 4.276s-3.324-1.5-3.324-4.276 1.31-4.276 3.324-4.276 3.324 1.502 3.324 4.276zM1.969 0h2.767v-3.72L6.1-5.382 9.684 0h3.311L8.079-7.229l4.858-5.861H9.62L4.909-7.319h-.173v-5.772H1.969z" transform="translate(136.978 24)" style="fill:#1c87af"/>
+</svg>

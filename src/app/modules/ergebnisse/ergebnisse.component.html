@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="ergebnis-card" *ngFor="let athlet of athleten">
+      <mat-card class="athlet-card" [ngClass]="{'gold': athlet.e_platzierung === 1, 'silver': athlet.e_platzierung === 2, 'bronze': athlet.e_platzierung === 3}">
+        <mat-card-title>Athleten-Informationen</mat-card-title>
+        <mat-card-content>
+          <div>Name: {{ athlet.a_name }}</div>
+          <div>Geburtsdatum: {{ athlet.a_geburtsdatum }}</div>
+          <div>Nation: {{ athlet.l_bezeichnung }}</div>
+         
+          <div>Sportart: {{ athlet.a_name }}</div>
+          <div>Ergebnis-Wert: {{ athlet.e_wert }}</div>
+          <div>Platzierung: {{ athlet.e_platzierung }}</div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  

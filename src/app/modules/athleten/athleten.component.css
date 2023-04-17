@@ -1,0 +1,132 @@
+/* Allgemeine Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Länder-Slider */
+
+.countries-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow-x: auto;
+
+  margin: auto;
+  justify-content: center;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  user-select: none;
+  transition: all 0.3s;
+  background-color: #f0f0f0;
+  flex-basis: calc(25% - 10px);
+  flex-shrink: 0;
+  flex-grow: 0;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+}
+.country.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.country img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.country h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.country:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Athleten-Karten */
+
+.athletes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.athlete-card {
+  max-width: 300px;
+}
+
+mat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+mat-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+mat-card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+mat-card-subtitle {
+  color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  .country {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .country {
+    flex-basis: calc(100% - 10px);
+  }
+}

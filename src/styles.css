@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("styles/color_palette.css");
+@import url("styles/text_style_catalog.css");
+
+html,body{margin:0;padding:0}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

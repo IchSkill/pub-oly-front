@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+    <g data-name="Ellipse 1" style="stroke:#1c87af;fill:#1c87af;stroke-width:2px">
+        <circle cx="30" cy="30" r="30" style="stroke:none"/>
+        <circle cx="30" cy="30" r="29" style="fill:none"/>
+    </g>
+    <g data-name="Gruppe 68">
+        <g data-name="Rechteck 85" transform="translate(16 14)" style="stroke:#fff;fill:#1c87af;stroke-width:2px">
+            <rect width="28" height="33" rx="5" style="stroke:none"/>
+            <rect x="1" y="1" width="26" height="31" rx="4" style="fill:none"/>
+        </g>
+    </g>
+    <g data-name="Gruppe 124">
+        <g data-name="Rechteck 85" transform="translate(20 20)" style="stroke:#fff;fill:#1c87af;stroke-width:2px">
+            <rect width="20" height="5" rx="2.5" style="stroke:none"/>
+            <rect x="1" y="1" width="18" height="3" rx="1.5" style="fill:none"/>
+        </g>
+    </g>
+    <g data-name="Gruppe 125">
+        <g data-name="Rechteck 85" transform="translate(20 28)" style="stroke:#fff;fill:#1c87af;stroke-width:2px">
+            <rect width="20" height="5" rx="2.5" style="stroke:none"/>
+            <rect x="1" y="1" width="18" height="3" rx="1.5" style="fill:none"/>
+        </g>
+    </g>
+    <g data-name="Gruppe 126">
+        <g data-name="Rechteck 85" transform="translate(20 36.001)" style="stroke:#fff;fill:#1c87af;stroke-width:2px">
+            <rect width="20" height="5" rx="2.5" style="stroke:none"/>
+            <rect x="1" y="1" width="18" height="3" rx="1.5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

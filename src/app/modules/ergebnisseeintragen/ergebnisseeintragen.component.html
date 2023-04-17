@@ -1,0 +1,34 @@
+<div class="container">
+    <form (ngSubmit)="postErgebnisse()">
+      <mat-form-field>
+        <mat-label>Athlet</mat-label>
+        <mat-select [(value)]="selectedAthlet">
+          <mat-option *ngFor="let athlet of athleten" [value]="athlet">
+            {{ athlet }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Sportart</mat-label>
+        <mat-select [(value)]="selectedSportart">
+          <mat-option *ngFor="let sportart of sportarten" [value]="sportart">
+            {{ sportart }}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Ergebnis</mat-label>
+        <input matInput [(ngModel)]="ergebnis" type="text" name="ergebnis" />
+      </mat-form-field>
+  
+      <mat-form-field>
+        <mat-label>Platzierung</mat-label>
+        <input matInput [(ngModel)]="platzierung" type="number" min="1" max="1000" name="platzierung" />
+      </mat-form-field>
+  
+      <button (click)=postErgebnisse() mat-raised-button color="primary" type="submit">Ergebnis eintragen</button>
+    </form>
+  </div>
+  

@@ -1,0 +1,12 @@
+<svg id="Btn_Erstellen" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="Rechteck_27" data-name="Rechteck 27" style="fill:#1c87af" d="M0 0h45v45H0z"/>
+    <g id="Gruppe_15" data-name="Gruppe 15" transform="translate(3800 -2510)">
+        <path id="Linie_10" data-name="Linie 10" class="cls-2" transform="translate(-3777.5 2520.5)" d="M0 0v24"/>
+        <path id="Linie_11" data-name="Linie 11" class="cls-2" transform="translate(-3789.5 2532.5)" d="M24 0H0"/>
+    </g>
+</svg>

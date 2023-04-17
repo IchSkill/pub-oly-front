@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="countries-slider">
+    <div
+      *ngFor="let country of countries"
+      class="country"
+      [class.active]="country.name === selectedCountry"
+      (click)="selectCountry(country)"
+    >
+      <img [src]="country.flag" alt="{{ country.name }} Flagge" />
+      <h3>{{ country.name }}</h3>
+    </div>
+  </div>
+  <div *ngIf="selectedCountry" class="country-info">
+    <h2>{{ selectedCountry }}'s Athleten</h2>
+  </div>
+  <div class="athletes-container">
+    <div *ngFor="let athlete of athletes" class="athlete-card">
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>{{ athlete.Athleten.a_name }}</mat-card-title>
+          <mat-card-subtitle>{{ athlete.Sportarten.s_name }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <p>Geburtsdatum: {{ athlete.Athleten.a_geburtsdatum }}</p>
+          <p>Sportart: {{ athlete.Sportarten.s_name }}</p>
+          <p>{{ athlete.Sportarten.s_bild }}</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+</div>

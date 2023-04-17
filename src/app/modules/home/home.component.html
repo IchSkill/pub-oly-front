@@ -1,0 +1,39 @@
+<div class="Startbildschirm">
+   
+  <img src="assets\components\Icons\Logo.svg" class="Logo">
+
+ 
+ 
+  <div class="h1_Ueberschrift">
+    OLYMPIA !!!
+  </div>
+
+
+  <img src="assets\components\Icons\Line.svg" class="Line">
+
+
+  <span class="p1-Textblock">
+    Werde zum Olympiasieger in Sachen Informationen - mit unserer Website bist du immer up-to-date!"
+  </span>
+
+
+  <div class= "flexbox-container">
+
+    <div class="Hovercontainer">
+     <img src="assets\components\Bestaetigungsbutton\Btn_LosGehts.svg" class="Btn_LosGehts">
+     <img src="assets\components\Bestaetigungsbutton\Btn_LosGehts_hover.svg" class="Btn_LosGehts_hover" (click)="navigateToIntroduction()">
+    </div>
+
+    <div class="Hovercontainer" *ngIf="!isLoggedIn()">>
+      <img src="assets\components\Bestaetigungsbutton\Btn_Login.svg"  class="Btn_Login">
+      <img src="assets\components\Bestaetigungsbutton\Btn_Login_hover.svg" (click)="showLogin()" class="Btn_Login_hover" >
+    </div>
+
+     
+
+  </div>
+  
+
+ 
+  
+</div>

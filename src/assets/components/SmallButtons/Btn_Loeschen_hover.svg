@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28">
+    <g transform="translate(2)">
+        <g data-name="Pfad 46" style="fill:none">
+            <path d="M0 0h22l-3.143 21H3.143z" style="stroke:none" transform="translate(0 7)"/>
+            <path d="M4.643 4 6.59 17h8.822l1.946-13H4.643M0 0h22l-3.143 21H3.143L0 0z" style="fill:#1c87af;stroke:none" transform="translate(0 7)"/>
+        </g>
+        <path data-name="Linie 61" transform="translate(0 3.5)" style="stroke:#1c87af;stroke-linecap:round;stroke-width:4px;fill:none" d="M0 0h22"/>
+        <rect data-name="Rechteck 128" width="6" height="3" rx="1.5" transform="translate(8)" style="fill:#1c87af"/>
+    </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg id="Btn_Schliessen" xmlns="http://www.w3.org/2000/svg" width="33.941" height="33.941" viewBox="0 0 33.941 33.941">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#1c87af;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Gruppe_106" data-name="Gruppe 106" transform="rotate(45 8.486 20.486)">
+        <path id="Linie_10" data-name="Linie 10" class="cls-1" transform="translate(12)" d="M0 0v24"/>
+        <path id="Linie_11" data-name="Linie 11" class="cls-1" transform="translate(0 12)" d="M24 0H0"/>
+    </g>
+</svg>

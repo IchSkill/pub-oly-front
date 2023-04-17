@@ -1,0 +1,25 @@
+<svg id="Btn_Expertenwissen" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <defs>
+        <style>
+            .cls-3{fill:#fff}.cls-6,.cls-8{stroke:none}.cls-8{fill:#1c87af}
+        </style>
+    </defs>
+    <g id="Ellipse_62" data-name="Ellipse 62" style="stroke-width:2px;stroke:#1c87af;fill:#fff">
+        <circle class="cls-6" cx="22.5" cy="22.5" r="22.5"/>
+        <circle cx="22.5" cy="22.5" r="21.5" style="fill:none"/>
+    </g>
+    <g id="Schnittmenge_4" data-name="Schnittmenge 4" style="fill:none">
+        <path class="cls-6" d="M18331.326 7446.409v-12.183h22v12.183l-11 4.773z" transform="translate(-18320.324 -7417.406)"/>
+        <path class="cls-8" d="m18342.326 7449.002 8.998-3.905v-8.87h-17.998v8.87l9 3.905m0 2.18-11-4.773v-12.183h21.998v12.183l-10.998 4.773z" transform="translate(-18320.324 -7417.406)"/>
+    </g>
+    <g id="Pfad_41" data-name="Pfad 41" class="cls-3">
+        <path class="cls-6" d="m1.924 21.866 6.032-13.91 13.91-6.032-6.032 13.91-13.91 6.032z" transform="rotate(45 8.586 27.556)"/>
+        <path class="cls-8" d="M19.941 3.849 8.716 8.716 3.849 19.941l11.225-4.867L19.941 3.85M23.791 0l-7.196 16.595L0 23.79 7.195 7.195 23.79 0z" transform="rotate(45 8.586 27.556)"/>
+    </g>
+    <g id="Pfad_43" data-name="Pfad 43" class="cls-3">
+        <path class="cls-6" d="m1.924 21.866 6.032-13.91 13.91-6.032-6.032 13.91-13.91 6.032z" transform="rotate(45 8.586 27.556)"/>
+        <path class="cls-8" d="M19.941 3.849 8.716 8.716 3.849 19.941l11.225-4.867L19.941 3.85M23.791 0l-7.196 16.595L0 23.79 7.195 7.195 23.79 0z" transform="rotate(45 8.586 27.556)"/>
+    </g>
+    <path id="Pfad_42" data-name="Pfad 42" d="M-17933.152-7038.129v3.376" transform="translate(17969.652 7060.006)" style="stroke-linecap:round;fill:none;stroke:#1c87af"/>
+    <circle id="Ellipse_61" data-name="Ellipse 61" cx="1.5" cy="1.5" r="1.5" transform="translate(35 24.798)" style="fill:#1c87af"/>
+</svg>

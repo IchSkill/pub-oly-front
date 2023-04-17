@@ -1,0 +1,27 @@
+<svg id="Fotobereich" xmlns="http://www.w3.org/2000/svg" width="67" height="50" viewBox="0 0 67 50">
+    <defs>
+        <style>
+            .cls-5{fill:none}.cls-2{stroke:#b2b2b2;stroke-width:2px;fill:#fff}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Rechteck_103" data-name="Rechteck 103" transform="translate(15)" style="stroke:#b2b2b2;stroke-width:2px;fill:none">
+        <rect class="cls-4" width="16" height="13" rx="3"/>
+        <rect class="cls-5" x="1" y="1" width="14" height="11" rx="2"/>
+    </g>
+    <g id="Rechteck_102" data-name="Rechteck 102" class="cls-2" transform="translate(0 4)">
+        <rect class="cls-4" width="67" height="46" rx="7"/>
+        <rect class="cls-5" x="1" y="1" width="65" height="44" rx="6"/>
+    </g>
+    <g id="Ellipse_43" data-name="Ellipse 43" class="cls-2" transform="translate(17 10)">
+        <circle class="cls-4" cx="17" cy="17" r="17"/>
+        <circle class="cls-5" cx="17" cy="17" r="16"/>
+    </g>
+    <g id="Ellipse_44" data-name="Ellipse 44" transform="translate(21 14)" style="fill:#b2b2b2;stroke:#b2b2b2;stroke-width:2px">
+        <circle class="cls-4" cx="13" cy="13" r="13"/>
+        <circle class="cls-5" cx="13" cy="13" r="12"/>
+    </g>
+    <g id="Rechteck_104" data-name="Rechteck 104" class="cls-2" transform="translate(0 4)">
+        <rect class="cls-4" width="15" height="46" rx="7"/>
+        <rect class="cls-5" x="1" y="1" width="13" height="44" rx="6"/>
+    </g>
+</svg>

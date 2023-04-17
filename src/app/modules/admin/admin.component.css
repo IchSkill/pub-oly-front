@@ -1,0 +1,153 @@
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background-color: #fff;
+    color: #424242;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  mat-form-field.form-group .mat-form-field-flex {
+    background-color: #f5f5f5 !important;
+  }
+  .app-datepicker .mat-datepicker-content {
+    background-color: #f5f5f5;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .blue-button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .blue-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  :host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+
+  mat-form-field.form-group {
+    display: block;
+    width: 100%;
+  }
+  
+  mat-form-field.form-group input {
+    width: 100%;
+  }
+  
+  mat-form-field.form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  mat-form-field.form-group .mat-form-field-wrapper {
+    padding-bottom: 0;
+  }
+
+  .modal-body {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 1rem;
+    height: 100%;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .blue-button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f51b5;
+    color: #fff;
+    margin-top: 1rem;
+  }
+  
+  .blue-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  mat-form-field.form-group {
+    display: block;
+    width: 100%;
+  }
+  
+  mat-form-field.form-group input {
+    width: 100%;
+  }
+  
+  mat-form-field.form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  mat-form-field.form-group .mat-form-field-wrapper {
+    padding-bottom: 0;
+  }
+  
+  mat-form-field.form-group .mat-form-field-flex {
+    background-color: #f5f5f5 !important;
+  }
+  
+  .app-datepicker .mat-datepicker-content {
+    background-color: #f5f5f5;
+  }
+  button[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }

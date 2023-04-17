@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+
+    <nav class="navbar">
+      <a class="navbar-brand" routerLink="/">Olympia</a>
+      <ul class="navbar-nav">
+    
+        <li class="nav-item" *ngIf="isLoggedIn()">
+          <a class="nav-link" (click)="showErgbenisseEintragen()">
+            <i class="fa fa-list "></i> <!-- Listsymbol -->
+          </a>
+        </li>
+
+        <li class="nav-item" *ngIf="isLoggedIn()">
+          <a class="nav-link" (click)="showAdmin()">
+            <i class="fa fa-gavel "></i> <!-- Benutzersymbol -->
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="!isLoggedIn()">
+          <a class="nav-link" (click)="showLogin()">
+            <i class="fa fa-lock"></i> <!-- Schlosssymbol -->
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/overview">Übersicht</a>
+        </li>
+        <li class="nav-item dropdown">
+          
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" (click)="toggleDropdown($event)">Ergebnisse</a>
+
+
+          <div class="dropdown-menu" aria-labelledby="ergebnisseDropdown">
+            <a class="dropdown-item" *ngFor="let sport of sportarten" routerLink="/ergebnisse/{{sport}}">{{ sport }}</a>
+          </div>
+        </li>
+       
+        <!-- Fügen Sie hier weitere Menüpunkte hinzu -->
+      </ul>
+    </nav>
+  </header>

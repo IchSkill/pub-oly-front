@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1124.773" height="509.902" viewBox="0 0 1124.773 509.902">
+    <defs>
+        <filter id="a" x="0" y="0" width="1124.771" height="509.902" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur"/>
+            <feFlood flood-opacity=".302"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="b" x="447.197" y="0" width="677.576" height="324.332" filterUnits="userSpaceOnUse">
+            <feOffset/>
+            <feGaussianBlur stdDeviation="10" result="blur-2"/>
+            <feFlood flood-opacity=".302"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g style="filter:url(#a)">
+        <path data-name="Pfad 51" d="M19923.6 4879.408c-39.416-43.41-85.357-81.432-140.449-116.238-13.531-8.549-27.895-17.071-42.687-25.33-14.615-8.16-30.154-16.344-46.186-24.325-15.775-7.854-32.568-15.781-49.914-23.562-17-7.627-35.133-15.38-53.881-23.043-69.566-28.435-152.129-57.618-259.828-91.842-102.824-32.674-220.416-67.358-341.936-102.985-23.379-6.854-46.227-13.935-67.906-21.046-21.383-7.014-42.236-14.258-61.982-21.53H19923.6v449.9z" transform="translate(-18828.83 -4399.51)" style="opacity:.696;fill:#1c87af"/>
+    </g>
+    <g style="filter:url(#b)">
+        <path data-name="Pfad 50" d="M19923.605 4693.839c-63.494-50-141.8-93.516-246.432-136.943-91.027-37.781-202.023-75.878-371.143-127.389h617.57v.5z" transform="translate(-18828.83 -4399.51)" style="fill:#1c87af"/>
+    </g>
+</svg>

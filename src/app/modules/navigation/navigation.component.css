@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    font-size: 1.5rem;
+    position: relative; /* Fügen Sie diese Zeile hinzu */
+  }
+
+  .navbar-brand {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-item {
+    margin-left: 1.5rem;
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .nav-link:hover {
+    color: lightgrey;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: calc(100% + 1rem);
+    left: 0;
+    z-index: 999;
+    display: none;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    min-width: 95%;
+    padding: 0.5rem 0;
+    overflow-y: visible; /* Geändert */
+    max-height: 300px; /* Geändert */
+    box-sizing: border-box; /* Hinzugefügt */
+}
+
+
+.dropdown-container {
+  position: relative;
+}
+.dropdown-container:hover .dropdown-menu {
+  display: block;
+}
+
+    
+.dropdown-item {
+  clear: both;
+  color: #212529;
+  display: flex; /* Hinzugefügt */
+  justify-content: center; /* Hinzugefügt */
+  align-items: center; /* Hinzugefügt */
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: .25rem 1.5rem;
+  text-align: inherit;
+  white-space: nowrap;
+  width: 100%; /* Hinzugefügt */
+}.dropdown-menu::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #999;
+}
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background-color: #eee;
+}
+
+
+
+    
+    .dropdown-item:hover,
+    .dropdown-item:focus {
+    background-color: #f8f9fa;
+    color: #16181b;
+    text-decoration: none;
+    }
+    
+    .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    }
+
+    
+    .dropdown:hover .dropdown-toggle::after {
+    border-top: 0;
+    border-bottom: .3em solid;
+    }
+    
+
+    
+    .dropdown-menu .dropdown-item.active,
+    .dropdown-menu .dropdown-item:active {
+    background-color: #007bff;
+    color: #fff;
+
+    }

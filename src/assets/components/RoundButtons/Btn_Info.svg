@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <g data-name="Ellipse 2" style="fill:#fff;stroke:#1c87af;stroke-width:2px">
+        <circle cx="22.5" cy="22.5" r="22.5" style="stroke:none"/>
+        <circle cx="22.5" cy="22.5" r="21.5" style="fill:none"/>
+    </g>
+    <path data-name="Pfad 80" d="M2.946 0H5.17v-19.091H2.946zm1.131-22.372a1.643 1.643 0 0 0 1.665-1.591 1.643 1.643 0 0 0-1.665-1.591 1.632 1.632 0 0 0-1.653 1.591 1.632 1.632 0 0 0 1.653 1.591z" transform="translate(18.487 36)" style="fill:#1c87af"/>
+</svg>
